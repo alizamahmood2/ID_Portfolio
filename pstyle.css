@@ -5,13 +5,19 @@ body {
   background-size: 2000px;
 }
 
+
+
   html {
   scroll-behavior: smooth;
 }
 
-* {
+
+
+/** {
+
+/** {
   box-sizing: border-box;
-}
+}*/
 
 
 .comingsoon {
@@ -21,7 +27,7 @@ body {
   padding-bottom: 35vh;
 }
 
-.row > .column {
+/*.row > .column {
   align-content: center;
   padding-top: 4vh;
   padding-bottom: 4vh;
@@ -32,17 +38,40 @@ body {
   content: "";
   display: table;
   clear: both;
+}*/
+
+.row {
+  display: grid;
+  grid-template-columns: 25vw 25vw 25vw;
+  column-gap: 3.5vw;
+  padding-left: 6vw;
 }
+
 
 .column {
   float: left;
-  width: 31%;
+/*  width: 31%;*/
+}
+
+.names {
+  padding-top: 1vh;
+  padding-bottom: 7vh;
 }
 
 .subs {
-  float: right;
-  text-align: right;
+/*  float: right;
+  text-align: right;*/
   color: white;
+  display: grid;
+  grid-template-columns: 20vw 20vw;
+  grid-column-gap: 30vw;
+/*  padding-left: 10vw;*/
+}
+
+.sub2 {
+  font-size: 15.5px;
+  letter-spacing: 0.02em;
+  color: pink;
 }
 
 /* The Modal (background) */
@@ -70,6 +99,8 @@ body {
   max-width: 70vw;
 
 }
+
+
 
 /* The Close Button */
 .close {
@@ -121,10 +152,10 @@ body {
 }
 
 /* On hover, add a black background color with a little bit see-through */
-/*.prev:hover,
+.prev:hover,
 .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}*/
+  color: #F20587;
+}
 
 /* Number text (1/3 etc) */
 .numbertext {
@@ -137,7 +168,7 @@ body {
 
 
 img {
-  margin-bottom: -4px;
+  margin-bottom: -8px;
 }
 
 .caption-container {
