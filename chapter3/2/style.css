@@ -85,6 +85,14 @@ li a.visited {
   line-height: 1.4;
 }
 
+.bib {
+  font-size: 15px;
+  padding-top: 1.5vh;
+    padding-left: 6vw;
+  padding-right: 38vw;
+  line-height: 1.6;
+}
+
 
 img {
   padding-top: 5vh;
