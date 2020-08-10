@@ -83,7 +83,7 @@ li a.visited {
 .intro {
   text-align: center;
   padding-bottom: 3vh;
-  padding-right: 33vw;
+  padding-right: 28vw;
   padding-left: 13vw;
     display: grid;
     grid-column-gap: 20vw;
@@ -93,7 +93,7 @@ li a.visited {
 
 .introtext {
 display: inline-block;
-  font-size: 48px;
+  font-size: 51px;
   text-align: left;
   line-height: 1.4;
   color: #030D0A;;
@@ -648,11 +648,8 @@ color:#015229;
 
 
 ::selection {
-    background-color: white;/* #030D0A*/
+    background-color:none;/* #030D0A*/
     color: #C73248;
 }
-
-
-
 
 
