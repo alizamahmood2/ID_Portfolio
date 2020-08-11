@@ -634,12 +634,6 @@ z-index: 99;
 
 
  }*/
-button {
-  border: none;
-  background-color: white;
-  color: #030D0A;;
-  text-decoration: none;
- }
 
 
  button: hover {
@@ -752,19 +746,25 @@ color:#015229;
   padding-bottom: 20vh;
 
  }
- button {
-
+ 
+  button {
+  border: none;
+  background-color: transparent;
+  color: #CFCFCF;
+  text-decoration: none;
  }
 
 
+
  #myBtn {
-  font-family: georgia;
+  font-family: "georgia";
   display: none;
-  text-align: center;
-  padding-right: 40vw;
-  padding-left: 43vw;
+  align-content: right;
+  text-align: right;
+  bottom: 4vh;
+  padding-left: 86.5vw;
   z-index: 99;
-  font-size: 17px;
+  font-size: 16px;
   border: none;
   outline: none;
   cursor: pointer;

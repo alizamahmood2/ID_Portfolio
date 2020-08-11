@@ -160,18 +160,6 @@ a.visited {
 
 
 
-
-
-
-
-button {
-  border: none;
-  background-color: white;
-  color: #030D0A;;
-  text-decoration: none;
- }
-
-
  button: hover {
 color: #F20587;
  }
@@ -282,19 +270,24 @@ color:#015229;
   padding-bottom: 20vh;
 
  }
- button {
 
+  button {
+  border: none;
+  background-color: transparent;
+  color: #CFCFCF;
+  text-decoration: none;
  }
+
 
 
  #myBtn {
   font-family: "georgia";
   display: none;
-  text-align: center;
-  padding-right: 40vw;
-  padding-left: 43vw;
+  position: fixed;
+  bottom: 4vh;
+  right: 2.5vw;
   z-index: 99;
-  font-size: 17px;
+  font-size: 16px;
   border: none;
   outline: none;
   cursor: pointer;
