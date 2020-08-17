@@ -1,13 +1,181 @@
 body{
-  margin: 3vw;
-  font-family: "georgia";
-  background: white;
+ margin-top: 2vh;
+  font-family: "playfair display";
+  background: #dbd5c9;
   background-size: 2000px;
   }
 
   html {
   scroll-behavior: smooth;
 }
+
+
+div#preload { display: none; }
+
+.margin {
+ margin-bottom: 3vh;
+ margin-right: 3vw;
+ margin-left: 3vw;
+}
+
+
+
+#overlap {
+  position: relative;
+ /* margin-right: 69vw;*/
+ letter-spacing: 0.1em;
+  font-size: 4vw;
+  color: white;
+  text-align: center;
+  align-content: center;
+  margin-left: 2.5vw;
+
+  font-family: playfair display semibold;
+}
+
+
+#overlap:hover {
+  font-style: italic;
+  color: #f93700;
+ 
+}
+
+
+
+#overlapabout {
+  position: relative;
+ /* margin-right: 69vw;*/
+ letter-spacing: 0.1em;
+  font-size: 4vw;
+  color: #f93700;
+  text-align: center;
+  align-content: center;
+  margin-left: 2.5vw;
+  font-family: playfair display semibold;
+
+}
+
+
+#overlapabout:hover {
+  color: white;
+    font-style: italic;
+ 
+}
+
+
+#tagline1 {
+  position: relative;
+  font-size: 2.3vw;
+  color: black;
+  letter-spacing: 0.02em;
+  padding-top: 7vh;
+  text-align: center;
+  font-family: playfair display;
+}
+
+#tagline1 b {
+  font-style: italic;
+    letter-spacing: 0.05em;
+}
+
+
+
+
+
+
+/*
+.sketch {
+  max-height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: mandatory;
+    scroll-snap-points-y: repeat(3rem);
+    scroll-snap-type: y mandatory;
+}*/
+
+
+.fullview {
+  height: 100vh;
+   /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    scroll-snap-align: start;*/
+}
+
+
+
+
+
+/*-- Insert gif ---*/
+
+#gif {
+  position: relative;
+  margin-top: 3vh;
+  margin-left: 13vw;
+
+  background-attachment: fixed;
+
+
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 47vw;
+  height: 47vh;
+  animation: giffy 6s infinite steps(1);
+    animation-play-state: paused;
+}
+
+
+
+
+
+#gif:hover {
+  animation-play-state:running;
+}
+
+@keyframes giffy {
+  0%   { background-image: url('image/gif/1.jpg'); } 
+  3%   { background-image: url('image/gif/28.jpg'); } 
+  6%  { background-image: url('image/gif/2.jpg'); }
+  9%  { background-image: url('image/gif/3.jpg');}
+  12%  { background-image: url('image/gif/4.jpg'); }
+  15%  { background-image: url('image/gif/5.jpg'); }
+  18%  { background-image: url('image/gif/6.jpg'); }
+  21% { background-image: url('image/gif/7.jpg'); }
+  24% { background-image: url('image/gif/8.jpg'); }
+  27% { background-image: url('image/gif/9.jpg'); }
+  30% { background-image: url('image/gif/10.jpg'); }
+  33% { background-image: url('image/gif/11.jpg'); }
+  36% { background-image: url('image/gif/12.jpg'); }
+  39% { background-image: url('image/gif/13.jpg'); }
+  42% { background-image: url('image/gif/14.jpg'); }
+  45% { background-image: url('image/gif/15.jpg'); }
+  48% { background-image: url('image/gif/16.jpg'); }
+  51% { background-image: url('image/gif/17.jpg'); }
+  54% { background-image: url('image/gif/18.jpg'); }
+  57% { background-image: url('image/gif/19.jpg'); }
+  60% { background-image: url('image/gif/20.jpg'); }
+  63% { background-image: url('image/gif/21.jpg'); }
+  66% { background-image: url('image/gif/22.jpg'); }
+  69% { background-image: url('image/gif/23.jpg'); }
+  72% { background-image: url('image/gif/24.jpg'); }
+  75% { background-image: url('image/gif/25.jpg'); }
+  78% { background-image: url('image/gif/26.jpg'); }
+  81% { background-image: url('image/gif/27.jpg'); }
+  84% { background-image: url('image/gif/28.jpg'); }
+  87% { background-image: url('image/gif/29.jpg'); }
+  90% { background-image: url('image/gif/30.jpg'); }
+  93% { background-image: url('image/gif/31.jpg'); }
+  96% { background-image: url('image/gif/32.jpg'); }
+  100% { background-image: url('image/gif/33.jpg'); }
+  
+}
+
+
+
+
+
+
+/*-- Insert gif ---*/
+
 
  .intro b {
 /*  font-family: "kepler std bold";*/
@@ -28,13 +196,14 @@ color: #015229;
   grid-column-gap: 23vw;
   grid-template-columns: 30vw 10vw;
   padding-right: 13vw;
-  padding-left: 13vw;
+  padding-left: 16vw;
   padding-top: 6vh;
 
 }
 
 .aboutcontents {
   font-size: 17px;
+  letter-spacing: 0.01em;
   text-align: left;
   line-height: 1.4;
 
@@ -49,8 +218,11 @@ ul {
 }
 
 li {
+  font-family: playfair display semibold;
   display: inline;
   color: #030D0A;;
+
+
 
 }
 
@@ -58,15 +230,17 @@ li {
   float: left;
 }
 
+
 li a {
   text-align: center;
   text-decoration: none;
-  font-size: 19px;
+  font-size: 20px;
   color: #030D0A;
 }
 
 li a:hover {
-   color:   #F20587;
+  font-style: italic;
+   color:   #f93700;
 }
 
 li a.active {
@@ -77,6 +251,10 @@ li a.visited {
   color:#030D0A;;
 }
 
+
+.nav:hover {
+  font-style: italic;
+}
 
 
 
@@ -139,6 +317,7 @@ input[type="checkbox"]  {
 
 .drop {
   cursor: pointer;
+  font-family: playfair display semibold;
     display: block;
   text-align: left;
   font-size: 2.43vw;
@@ -152,7 +331,7 @@ input[type="checkbox"]  {
  /* background-color: #F28705;
   width: 77%;
   padding-left: 2vw;*/
-  color: #F20587;
+  color: #f93700;
 
 /*  font-weight: bold;*/
 }
@@ -160,6 +339,7 @@ input[type="checkbox"]  {
 
 #_1:checked + .drop + div{
   display:block;
+
 }
 
 #_2:checked + .drop + div{
@@ -192,7 +372,7 @@ input[type="checkbox"]  {
  }
 
  .chlists {
-  font-size: 48px;
+
   text-align: left;
   padding-left: 5vw;
   font-size: 3.35vw;
@@ -209,7 +389,7 @@ input[type="checkbox"]  {
 
 
  p a:hover {
-  color:  #F20587;
+  color:  #f93700;
 
  
  }
@@ -505,7 +685,7 @@ z-index: 99;
 
 
  button: hover {
-color: #F20587;
+color: #f93700;
  }
 
  button.active {
@@ -520,6 +700,8 @@ color: #F20587;
   padding-right: 13vw;
   padding-left: 13vw;
   text-align:center;
+  padding-top: 7vh;
+   margin-bottom: 50vh;
 
  }
 
@@ -534,7 +716,7 @@ color:#030D0A;
 
  .chtitle:hover {
 
-  color:  #F20587;
+  color:  #f93700;
  }
 
 
@@ -565,7 +747,7 @@ color:#030D0A;
  }
 
  .linkedin:hover {
-color: #F20587;
+color: #f93700;
  }
 
  .linkedin.active {
@@ -582,7 +764,7 @@ color:#015229;
  }
 
   .instabold:hover {
-  color:#F20587;
+  color:#f93700;
  }
 
   .instabold.active {
@@ -595,6 +777,7 @@ color:#015229;
 
 
  .footertext  {
+    font-family: "georgia";
   color:#030D0A;
   display: grid;
   padding-left: 13vw;
@@ -618,36 +801,47 @@ color:#015229;
   button {
   border: none;
   background-color: transparent;
-  color: #CFCFCF;
+  color: white;
   text-decoration: none;
  }
 
 
 
  #myBtn {
-  font-family: "georgia";
+  font-family: "playfair display semibold";
   display: none;
   position: fixed;
   bottom: 4vh;
   right: 2.5vw;
   z-index: 99;
-  font-size: 16px;
+  font-size: 18px;
   border: none;
   outline: none;
   cursor: pointer;
+  letter-spacing: 0.02em;
  
 }
 
 #myBtn:hover {
-  color:  #F20587;
+  color:  #f93700;
 
 }
 
 
 
 ::selection {
-    background-color:none;/* #030D0A*/
-    color: #C73248;
+/*      background: #ff501e;
+    color: #fff;*/
+/*
+    background: #f9dddd;
+    color: #f93700;*/
+
+
+   /* background: #ded5c4;
+    color: #fff;*/
+
+    background: #505050;
+    color: #fff;
 }
 
 

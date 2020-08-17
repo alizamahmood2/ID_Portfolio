@@ -1,5 +1,5 @@
 body{
-  margin: 3vw;
+  margin-top: 2vh;
   font-family: "georgia";
   background: white;
   background-size: 2000px;
@@ -10,9 +10,43 @@ body{
   scroll-behavior: smooth;
 }
 
+
+.margin {
+ margin-bottom: 3vh;
+ margin-right: 3vw;
+ margin-left: 3vw;
+}
+
  .header {
   padding-bottom: 40px;
 }
+
+#overlap {
+  position: relative;
+ /* margin-right: 69vw;*/
+ letter-spacing: 0.1em;
+  font-size: 4vw;
+/*  color: #BFBAB0;*/
+color: #DBD5C9;
+  text-align: center;
+  align-content: center;
+  margin-left: 2.5vw;
+
+  font-family: playfair display semibold;
+}
+
+
+#overlap:hover {
+  
+  color: #f93700;
+ 
+}
+
+.project {
+  padding-bottom: 15vh;
+}
+
+
 
 ul {
   margin: 0;
@@ -20,8 +54,11 @@ ul {
 }
 
 li {
+  font-family: playfair display semibold;
   display: inline;
-  color: #030D0A;
+  color: #030D0A;;
+
+
 
 }
 
@@ -30,28 +67,29 @@ li {
 }
 
 
-
 li a {
   text-align: center;
   text-decoration: none;
-  font-size: 19px;
+  font-size: 20px;
   color: #030D0A;
 }
 
 li a:hover {
-  color: #F20587;
+   color:   #f93700;
+   font-style: italic;
 }
 
 li a.active {
-  color:#030D0A;
+  color:#030D0A;;
 }
 
 li a.visited {
-  color:#030D0A;
+  color:#030D0A;;
 }
 
 
 .title {
+   font-family: "playfair display";
   font-size: 20px;
   color:  #015229;
 }
@@ -97,18 +135,20 @@ img {
 
 
 .nextbar  {
+   font-family: "playfair display semibold";
   float: right;
   text-align: right;
   display: grid;
-    grid-column-gap: 75vw;
-    grid-template-columns: 9vw 9vw;
+    grid-column-gap: 65vw;
+    grid-template-columns: 14vw 14vw;
  }
 
 
  .prevnext {
-  font-size: 17px;
+   font-family: "playfair display semibold";
+  font-size: 1.39vw;
   line-height: 1.5;
-  padding-top: 7vh;
+  padding-top: 4vh;
   text-decoration: none;
 
  }
@@ -121,7 +161,7 @@ img {
 
 .nextbar a:hover {
   text-decoration: none;
-  color: #F20587;
+  color: #f93700;
  }
 
  .nextbar a.active {
@@ -134,6 +174,24 @@ img {
   color: #030D0A;
  }
 
+ .rarrow {
+  display: inline;
+  position: relative;
+  font-family: "arial";
+  font-weight: 100;
+  font-size: 2vw;
+}
+
+
+.larrow {
+  display: inline;
+  position: relative;
+  font-family: "arial";
+  font-weight: 100;
+  font-size: 2vw;
+}
+
+
 
  a {
   text-decoration: none;
@@ -141,7 +199,7 @@ img {
  }
 
 a:hover {
-  color: #F20587;
+  color: #f93700;
 
  }
 
@@ -160,7 +218,7 @@ a.visited {
 
 
  button: hover {
-color: #F20587;
+color: #f93700;
  }
 
  button.active {
@@ -182,7 +240,7 @@ color: #F20587;
  }
 
  .linkedin:hover {
-color: #F20587;
+color: #f93700;
  }
 
  .linkedin.active {
@@ -199,7 +257,7 @@ color:#015229;
  }
 
   .instabold:hover {
-  color:#F20587;
+  color:#f93700;
  }
 
   .instabold.active {
@@ -232,37 +290,48 @@ color:#015229;
 
  }
  
-  button {
+ button {
   border: none;
   background-color: transparent;
-  color: #CFCFCF;
+  color:  #DBD5C9;
   text-decoration: none;
  }
 
 
 
  #myBtn {
-  font-family: "georgia";
+  font-family: "playfair display semibold";
   display: none;
   position: fixed;
   bottom: 4vh;
   right: 2.5vw;
   z-index: 99;
-  font-size: 16px;
+  font-size: 18px;
   border: none;
   outline: none;
   cursor: pointer;
+  letter-spacing: 0.02em;
  
 }
 
 #myBtn:hover {
-  color:  #F20587;
+  color:  #f93700;
 
 }
 
 
 
 ::selection {
-    background-color: white;/* #030D0A*/
-    color: #C73248;
+/*      background: #ff501e;
+    color: #fff;*/
+/*
+    background: #f9dddd;
+    color: #f93700;*/
+
+
+   /* background: #ded5c4;
+    color: #fff;*/
+
+    background: #505050;
+    color: #fff;
 }
