@@ -42,8 +42,7 @@ html .titlec {
  /* margin-right: 69vw;*/
  letter-spacing: 0.1em;
   font-size: 4vw;
-/*  color: #BFBAB0;*/
-color: #DBD5C9;
+  color: #dbd5c9;
   text-align: center;
   align-content: center;
   margin-left: 2.5vw;
@@ -53,16 +52,10 @@ color: #DBD5C9;
 
 
 #overlap:hover {
-  
-  color: #f93700;
+  font-style: italic;
+  color: #017D28;
  
 }
-
-.project {
-  padding-bottom: 15vh;
-}
-
-
 
 ul {
   margin: 0;
@@ -70,7 +63,9 @@ ul {
 }
 
 li {
-  font-family: playfair display semibold;
+  font-family: adobe-caslon-pro, serif;
+font-style: normal;
+font-weight: 400;
   display: inline;
   color: #030D0A;;
 
@@ -86,13 +81,13 @@ li {
 li a {
   text-align: center;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 24px;
   color: #030D0A;
 }
 
 li a:hover {
-   color:   #f93700;
-   font-style: italic;
+  font-style: italic;
+   color:   #F20587;
 }
 
 li a.active {
@@ -102,6 +97,13 @@ li a.active {
 li a.visited {
   color:#030D0A;;
 }
+
+.project {
+  padding-bottom: 15vh;
+}
+
+
+
 
 
 .title {
@@ -218,7 +220,7 @@ img {
 
 .nextbar a:hover {
   text-decoration: none;
-  color: #f93700;
+  color: #F20587;
  }
 
  .nextbar a.active {
@@ -255,7 +257,7 @@ img {
  }
 
 a:hover {
-  color: #f93700;
+  color: #F20587;
 
  }
 
@@ -280,7 +282,7 @@ a.visited {
 
 
  button: hover {
-color: #f93700;
+color: #F20587;
  }
 
  button.active {
@@ -302,7 +304,7 @@ color: #f93700;
  }
 
  .linkedin:hover {
-color: #f93700;
+color: #F20587;
  }
 
  .linkedin.active {
@@ -319,7 +321,7 @@ color:#015229;
  }
 
   .instabold:hover {
-  color:#f93700;
+  color:#F20587;
  }
 
   .instabold.active {
@@ -376,23 +378,14 @@ color:#015229;
 }
 
 #myBtn:hover {
-  color:  #f93700;
+  color:  #F20587;
 
 }
 
 
 
+
 ::selection {
-/*      background: #ff501e;
-    color: #fff;*/
-/*
-    background: #f9dddd;
-    color: #f93700;*/
-
-
-   /* background: #ded5c4;
-    color: #fff;*/
-
-    background: #505050;
-    color: #fff;
+    background: #F5EEE1;
+    color: #F20587;
 }

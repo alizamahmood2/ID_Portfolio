@@ -1,11 +1,9 @@
-body {
-   margin-top: 2vh;
+body{
+ margin-top: 2vh;
   font-family: "playfair display";
-  background: /*#F4F0E8;*/ white;
+  background: white;
   background-size: 2000px;
-}
-
-
+  }
 
   html {
   scroll-behavior: smooth;
@@ -52,8 +50,7 @@ body {
  /* margin-right: 69vw;*/
  letter-spacing: 0.1em;
   font-size: 4vw;
-/*  color: #BFBAB0;*/
-color: #DBD5C9;
+  color: #dbd5c9;
   text-align: center;
   align-content: center;
   margin-left: 2.5vw;
@@ -63,11 +60,10 @@ color: #DBD5C9;
 
 
 #overlap:hover {
-  
-  color: #f93700;
+  font-style: italic;
+  color: #017D28;
  
 }
-
 
 
 .row {
@@ -146,7 +142,7 @@ color: #DBD5C9;
 
 .close:hover,
 .close:focus {
-  color: #f93700;
+  color: #F20587;
   text-decoration: none;
   cursor: pointer;
 }
@@ -186,7 +182,7 @@ color: #DBD5C9;
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-  color: #f93700;
+  color: #F20587;
 }
 
 /* Number text (1/3 etc) */
@@ -235,9 +231,11 @@ ul {
 }
 
 li {
-  font-family: playfair display semibold;
+  font-family: adobe-caslon-pro, serif;
+font-style: normal;
+font-weight: 400;
   display: inline;
-  color: #030D0A;;
+  color: #030D0A;
 
 
 
@@ -251,13 +249,13 @@ li {
 li a {
   text-align: center;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 24px;
   color: #030D0A;
 }
 
 li a:hover {
-   color:   #f93700;
-   font-style: italic;
+  font-style: italic;
+   color:   #F20587;
 }
 
 li a.active {
@@ -267,6 +265,7 @@ li a.active {
 li a.visited {
   color:#030D0A;;
 }
+
 
 
 .intro {
@@ -318,7 +317,7 @@ input[type="checkbox"]  {
 
 
 .drop:hover {
-  color: #f93700;
+  color: #F20587;
 }
 
 
@@ -376,7 +375,7 @@ input[type="checkbox"]  {
 
  p a:hover {
   
-  color: #f93700;
+  color: #F20587;
  
  }
 
@@ -672,7 +671,7 @@ z-index: 99;
 
 
  button: hover {
-color: #f93700;
+color: #F20587;
  }
 
  button.active {
@@ -701,7 +700,7 @@ color:#030D0A;
 
  .chtitle:hover {
 
-  color:  #f93700;
+  color:  #F20587;
  }
 
 
@@ -732,7 +731,7 @@ color:#030D0A;
  }
 
  .linkedin:hover {
-color: #f93700;
+color: #F20587;
  }
 
  .linkedin.active {
@@ -749,7 +748,7 @@ color:#015229;
  }
 
   .instabold:hover {
-  color:#f93700;
+  color:#F20587;
  }
 
   .instabold.active {
@@ -760,8 +759,8 @@ color:#015229;
   color:#015229;
  }
 
-
- .footertext  {
+.footertext  {
+    font-family: "georgia";
   color:#030D0A;
   display: grid;
   padding-left: 13vw;
@@ -810,15 +809,20 @@ color:#015229;
 }
 
 #myBtn:hover {
-  color:  #f93700;
+  color:  #F20587;
 
 }
 
 
+ button: hover {
+color: #F20587;
+ }
+
+
 
 ::selection {
-    background-color: white;/* #030D0A*/
-    color: #C73248;
+    background: #F5EEE1;
+    color: #F20587;
 }
 
 
