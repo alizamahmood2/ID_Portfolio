@@ -1,8 +1,7 @@
 body{
  margin-top: 2vh;
   font-family: "courier new";
-  background: black;
- color: white;
+  background: white;
   background-size: 2000px;
   }
 
@@ -87,9 +86,8 @@ div#preload { display: none; }
   font-size: 2.3vw;
   color: black;
   letter-spacing: 0.02em;
-  padding-top: 7vh;
+  padding-top: 0vh;
   text-align: center;
-  font-family: playfair display;
 
 }
 
@@ -129,8 +127,8 @@ div#preload { display: none; }
 
 #gif {
   position: relative;
-  margin-top: 3vh;
-  margin-left: 13vw;
+  margin-top: 0vh;
+  margin-left: 30%;
 
   background-attachment: fixed;
 
@@ -139,7 +137,7 @@ div#preload { display: none; }
   background-position: center;
   width: 47vw;
   height: 47vh;
-  animation: giffy 6s infinite steps(1);
+  animation: giffy 8s infinite steps(1);
     animation-play-state: paused;
 }
 
@@ -381,7 +379,7 @@ input[type="checkbox"]  {
 
 
  p {
-  font-size: 20px;
+  font-size: 16px;
 
  }
 
@@ -406,7 +404,7 @@ input[type="checkbox"]  {
 
  p a {
   text-transform: none;
-  color: #dad5ca;
+  color: #015229;
   text-decoration: none;
  }
 
