@@ -1,7 +1,8 @@
 body{
  margin-top: 2vh;
   font-family: "playfair display";
-  background: white;
+  background: black;
+ color: white;
   background-size: 2000px;
   }
 
@@ -404,7 +405,7 @@ input[type="checkbox"]  {
 
  p a {
   text-transform: none;
-  color: #015229;
+  color: #dad5ca;
   text-decoration: none;
  }
 
