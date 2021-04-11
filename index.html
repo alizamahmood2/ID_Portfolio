@@ -11,9 +11,53 @@
 </head>
 
 <body>
+	
 <div class="sketch">
+
+	
+<p style="text-align: center; margin-top: 50vh; font-size: 20px; padding-left: 3vw; padding-right: 3vw;"><i><b>Hi there! Kindly view this website on a laptop, tablet or larger screen. Thank you!</b>- Aliza Mahmood.</i></p>
+
+
+</div>
+
+<script>
+
+// if (window.innerWidth >= 900) {
+//     window.location = "index.html";
+// }
+
+
+
+// if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+//    location.replace("index1.html");
+// }
+
+
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+	
+<!-- <div class="sketch">
 <div class="desktop"> 
-	<div class="fullview"><!-- HEADER -->
+	<div class="fullview">
 
 	<div class="header">
 
@@ -28,14 +72,10 @@
 	</div>
 
 
-	<!-- INTRO -->
 
 
 
 	<div class="intro">
-		<!-- <div class="introtext">
-			<p>- Hi, I'm <b>Aliza.</b> I'm a Pakistani <b>industrial designer</b> who loves <b>collaboration</b>, <b>curiosity</b> and <b>complexity.</b></p>
-		</div> -->
 		
 		
 		<div id="gif" style="padding-bottom: 10vh;"></div>
@@ -44,13 +84,11 @@
 	</div>
 
 	<div id="tagline1"><p><i>Products / Installations / Experiences / Visual Media / Critique</i></b></p></div>
-<!-- 	<div id="tagline2"><p><i>Products / Installations / Experiences / Graphics</i></p></div> -->
 
 </div>
 
 
 <div class="margin">
-	<!-- CHAPTERS -->
 
 	<div class="chapters">
 
@@ -177,9 +215,9 @@
 								  </div>
 								</div>
 
-								<!-- Hidden Projects that need to be updated: -->
+								<!-- Hidden Projects that need to be updated:
 
-								<!-- <div class="container">
+								<div class="container">
 								  <img src="image/c.jpg" class="image3" style="width:70%">
 								  <div class="middle">
 								    <div class="text"><p id="tethers"><a href="chapter3/3/tethers.html"><b>Tethers</b></a></p></div>
@@ -193,11 +231,13 @@
 								  </div>
 								</div> -->
 
-								<!-- Hidden Projects that need to be updated: -->
+					
 
-					</div>
+<!--
+					
+				</div>
 
-			</div>
+			</div> 
 
 
 			<!-- for just one chapter, use this:
@@ -210,16 +250,15 @@
 						<p id="tethers">TETHERS</p>
 						<p id="manuals">MANUALS OF CARE</p>
 				</div> 
-				-->
 
-			
+			-->
+
+<!--
 
 
 		
 	</div>
 
-
-	<!-- FOOTER -->
 
 	<div class="footer">
 
@@ -311,8 +350,6 @@
 
 
 
-<!-- 	↑ -->
-
 <button onclick="topFunction()" id="myBtn"><i>Back to Top</i></button>
 </div>
 </div>
@@ -393,7 +430,7 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-</script>
+</script> -->
 
 </body>
 </html>
